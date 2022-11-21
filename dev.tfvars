@@ -1,0 +1,14 @@
+vpc_id                  = "vpc-41403e3c"
+subnet_ids              = ["subnet-6f8cae09", "subnet-45183064"]
+security_group_ids      = ["sg-01fd708b7e4dfec36"]
+account_number          = "052928008350"
+env                     = "dev"
+region                  = "us-east-1"
+az                      = "us-east-1a"
+sns_notifications_email = "ashok.dpi@gmail.com"
+db_subnet_group_name    = "rds-sql-server"
+db_instance_class       = "db.t3.xlarge"
+ec2_instance_class      = "c1.xlarge"
+ssh_keypair_name        = "ec2-sqlserver"
+sql_engine              = "sqlserver-se"
+sql_engine_version      = "14.00.3451.2.v1"
