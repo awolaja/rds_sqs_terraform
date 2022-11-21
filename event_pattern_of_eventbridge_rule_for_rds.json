@@ -1,0 +1,10 @@
+{
+  "detail-type": ["RDS DB Instance Event"],
+  "source": ["aws.rds"],
+  "detail": {
+    "EventCategories": ["creation"],
+    "SourceArn": [{
+      "suffix": "rds-sql-server"
+    }]
+  }
+}

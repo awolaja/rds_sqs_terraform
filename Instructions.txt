@@ -1,0 +1,16 @@
+Environment Variables for lambda_create_ec2:
+1. SUBNET_ID = <subnet id>
+2. EIP_QUEUE_URL = <eip queue url>
+3. ACCOUNT_ID = <account id>
+
+Environment Variables for lambda_1_create_rds_db:
+1. ACCOUNT_ID = <account id>
+2. SUBNET_GROUP_NAME = <subnet group name>
+3. SNS_TOPIC = <sns topic name>
+
+Environment Variables for lambda_2_send_rds_details_to_sqs_sns:
+1. RDS_ENDPOINT_QUEUE_URL = <sqs queue url>
+2. SNS_TOPIC = <sns topic name>
+
+References:
+1. For creation of eventbridge rule event patterns: https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html
